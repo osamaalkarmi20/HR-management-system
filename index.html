@@ -17,16 +17,41 @@
 
 </nav></header>
   <body>
-    <main><div class="d">
-        <div class="titles" id="id">ID </div>
-        <div class="titles" id="name">NAME </div>
-        <div class="titles" id="dep">DEP. </div>
-        <div class="titles" id="level">LEVEL </div>
-        <div class="titles" id="salary">SALARY </div></div>
+ <form id="add-person">
+        <fieldset>
+          <legend class="label">Add new employee:</legend><br>
+          <label for="fullname" class="label">fullname:</label><br>
+          <input type="text" id="fullname" name="fullname" ><br>
+<label for="dep" class="label">Choose a department:</label><br>
+
+<select name="dep" id="dep" >
+  <option value="Administration">Administration</option>
+  <option value="Marketing">Marketing</option>
+  <option value="Development">Development</option>
+  <option value="Finance">Finance</option>
+</select><br>
+
+<label for="level" class="label">Choose a level:</label><br>
+
+<select name="level" id="levels"><br>
+  <option value="Junior">Junior</option>
+  <option value="Mid-Senior">Mid-Senior</option>
+  <option value="Senior">Senior</option>
+
+</select><br>
+       
+          <label for="imgurl" class="label">imgUrl for exmple(Ghazi)</label><br>
+          <input type="text" id="imgUrl" name="imgeUrl"><br>
+          <input type="submit" value="Submit" class="label">
+        
+        
+          </select>
+        </fieldset>
+    </form>
+    <section id="container"></section>
     <script src="./JS/app.js"></script></main>
     </body>
-
-<footer>
+      <footer>
         <section>
             <p ID="copy">ALL rights reserved </p>
             
@@ -39,7 +64,4 @@
     
 </body>
     
-
-
 </html>
-
