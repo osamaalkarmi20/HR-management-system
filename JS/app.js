@@ -11,7 +11,7 @@ function Employee(fullName,dep,level,imgUrl){
     this.fullName = fullName;
     this.dep = dep;
     this.level = level;
-    this.imgUrl= imgUrl;
+    this.imgUrl=`./pics/${this.fullName}.jpg`;
    
     allEmployee.push(this);}
   
@@ -60,7 +60,7 @@ Employee.prototype.render= function (){
 
     const imgEl = document.createElement('img');
     divEl.appendChild(imgEl);
-    imgEl.src =`./pics/${this.imgUrl}.jpg` ;
+    imgEl.src =`${this.imgUrl}`;
     imgEl.alt = "pic";
     const h3El1 = document.createElement('h3');
     divEl.appendChild(h3El1);
