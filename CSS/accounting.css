@@ -40,3 +40,58 @@ body{margin: 0;
      
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       }
+      #container{
+                
+        text-align: center;
+        background-color: burlywood;
+       max-width: 80%;
+        min-width:607px ;
+        border:7px;
+        border-radius: 1cm;
+        
+        
+    border-color: white;
+    border-style:outset;
+       
+      }
+      #headoftables{
+        display: flex;
+        gap: 20px;
+        max-width:100%;
+            
+            flex-wrap: wrap;
+          
+          justify-content:space-between;
+            
+     padding-right: 20px;
+     
+     padding-left: 20px;
+    
+      }
+      #headoftable{
+        display: flex;
+        gap: 20px;
+        max-width:100%;
+            color: white;
+            flex-wrap: wrap;
+          
+          justify-content:space-between;
+          padding-right: 20px;
+     
+          padding-left: 20px;
+      border: 6px;
+      border-radius: 1cm;
+      
+      border-style:;
+      }
+      #endoftable{  display: flex;
+      
+            color: white;
+            flex-wrap: nowrap;
+          
+          justify-content:space-between;
+          padding-left: 20px;
+          padding-right: 20px;
+       
+    
+      }
